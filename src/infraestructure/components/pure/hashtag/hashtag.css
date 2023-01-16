@@ -1,0 +1,111 @@
+.hashtag-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+}
+
+.hashtag-container .hstg-img-background {
+    position: absolute;
+    filter: brightness(70%);
+    width: 100%;
+    max-height: 500px;
+    object-position: center;
+    object-fit: cover;
+}
+.hashtag-container .use-hashtag {
+    position: absolute;
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    width: 348px;
+    color: #ffffff;
+    top: 4em;
+}
+
+.hashtag-container .use-hashtag-sergio-mica {
+    position: absolute;
+    bottom: 2.5em;
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hsth-bottom-wave {
+    position: absolute;
+    bottom: -4.1em;
+    left: 0;
+    width: 100%;
+    height: 100px;
+}
+.hsth-top-wave {
+    position: absolute;
+    top: -4em;
+    transform: rotate(180deg);
+    left: 0;
+    width: 100%;
+    height: 100px;
+}
+
+.ig-gif {
+    position: absolute;
+}
+@media (min-width: 768px) {
+    .hashtag-container {
+        margin-top: 4em;
+        margin-bottom: 8em;
+        height: 800px;
+    }
+    .hashtag-container .hstg-img-background {
+        object-fit: cover;
+        object-position: 100% 30%;
+        min-height: 600px;
+    }
+    .hashtag-container .use-hashtag {
+        text-align: center;
+        width: 100%;
+        top: 3em;
+        font-size: 35px;
+    }
+    .hashtag-container .hstg-img-background {
+        max-height: 800px;
+    }
+    .hashtag-container .use-hashtag-sergio-mica {
+        bottom: 3em;
+
+        font-size: 45px;
+    }
+    .hsth-bottom-wave {
+        position: absolute;
+        bottom: -8.1em;
+        left: 0;
+        width: 100%;
+        height: 200px;
+    }
+    .hsth-top-wave {
+        top: -4.1em;
+    }
+}
+
+.heart-svg {
+    animation: fadeInHeart 3s ease forwards infinite;
+}
+/* Animations */
+
+@keyframes fadeInHeart {
+    from {
+        display: block;
+    }
+    to {
+        transform: translateY(10px);
+        opacity: 0;
+    }
+}

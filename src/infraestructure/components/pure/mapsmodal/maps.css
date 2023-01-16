@@ -1,0 +1,79 @@
+.modal-background {
+    position: fixed;
+    backdrop-filter: blur(8px);
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 0.45s;
+}
+.modal-container {
+    width: 450px;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+.modal-close-icon {
+    position: absolute;
+    margin-left: 20em;
+    top: 8em;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.maps {
+    width: 80%;
+    height: 280px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.how-to-get {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #809264;
+    margin-bottom: 1em;
+}
+.circle-div {
+    position: absolute;
+    background: #000;
+    border-radius: 50%;
+    margin: auto;
+    width: 110px;
+    height: 110px;
+    top: 2em;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.circle-div img {
+    margin: 1.2em auto;
+    width: 67.88px;
+    height: 67.77px;
+}
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

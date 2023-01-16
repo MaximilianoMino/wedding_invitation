@@ -1,0 +1,103 @@
+@media (min-width: 960px) {
+    .more-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 2 50%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+.gifts-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.25);
+    width: 333px;
+    height: 400px;
+    margin-top: 4em;
+    position: relative;
+    margin-bottom: 5em;
+    padding-bottom: 2em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.gift-title {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #809264;
+}
+.gift-p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 16px;
+    width: 228px;
+    text-align: center;
+    color: #000000;
+}
+.gift-lunademiel {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.gift-plane-icon {
+    margin-left: 1em;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-top: -0.1em;
+}
+
+.gift-modal-p {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+}
+.gift-modal-p span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    color: #000000;
+}
+
+/* booking */
+
+.booking-icon {
+    width: 80px;
+    height: 80px;
+}
+
+/* playlist modal */
+
+.playlist-modal-img {
+    position: absolute;
+    right: 1.6em;
+    height: 65px !important;
+}
+
+.card-wave {
+    position: absolute;
+    bottom: -2em;
+    min-width: 341px;
+}

@@ -1,0 +1,58 @@
+.portrait-container {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+}
+
+.portrait-title {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    color: #809264;
+}
+.portrait-subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 17px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    margin-top: 10px;
+    width: 280px;
+    margin-bottom: 2em;
+}
+
+.portrait-img-container {
+    display: grid;
+    position: relative;
+    column-gap: 10px;
+    row-gap: 22px;
+    grid-template-columns: repeat(2, minmax(1fr));
+    grid-auto-flow: dense;
+}
+.portrait-img-container img {
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.portrait-img-container .wide {
+    grid-column: span 2;
+}
+.portrait-img-container .tall {
+    grid-row: span 2;
+}
+.portrait-img-container .short {
+    grid-row: span 1;
+}
+
+.camera-gif {
+    width: 200px;
+    height: 200px;
+    margin-bottom: -1em;
+}

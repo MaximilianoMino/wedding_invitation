@@ -1,0 +1,19 @@
+.audio-container {
+    position: fixed;
+    bottom: 3.5em;
+    right: 1.5em;
+    background: #22271a49;
+    backdrop-filter: blur(7px);
+    padding: 0.6em 0.8em 0.5em 0.6em;
+
+    border-radius: 50%;
+    z-index: 10000;
+}
+.audio-container img {
+    width: 24px;
+    height: 24px;
+}
+
+.audio-container:hover {
+    cursor: pointer;
+}

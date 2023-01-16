@@ -1,0 +1,62 @@
+.countdown-timer-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 490px;
+    margin-bottom: 9em;
+}
+.countdown-vector {
+    border-radius: 31px;
+    width: 550px;
+}
+.countdown-timer {
+    position: absolute;
+    margin-top: 12.6em;
+    background: #fff;
+}
+
+.countdown-timer .until {
+    font-family: 'Pinyon Script';
+    font-size: 40px;
+    line-height: 27px;
+    color: #ae9461;
+    margin-bottom: 0.3em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.countdown-clock {
+    display: flex;
+    justify-content: space-evenly;
+    width: 350px;
+}
+.countdown-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.countdown-column p {
+    font-family: 'Pinyon Script';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+
+.days-line::before,
+.minutes-line::before,
+.hours-line::before {
+    content: '';
+    width: 1px;
+    background: #cecece;
+    margin-left: 3em;
+    position: absolute;
+    height: 55.32px;
+}
+
+.hours-line::before {
+    margin-left: 4em;
+}
+.minutes-line::before {
+    margin-left: 5em;
+}
